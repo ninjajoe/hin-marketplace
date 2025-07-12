@@ -1,0 +1,3 @@
+import{h as n,H as o,g as r,r as a}from"./index-C5yUYMov.js";/*!
+ * (C) HCA Healthcare Inc. http://hcahealthcare.com - MIT License
+ */var c=function(){function t(e){a(this,e),this._tag="neu-tag",this.color="blue",this.kind="default",this.icon=void 0}return t.prototype.render=function(){var e,i=(e={},e["".concat(this._tag)]=!0,e["color-".concat(this.color)]=!0,e["kind-".concat(this.kind)]=this.kind==="emphasized",e);return n(o,{key:"d24eb64a77667c2ae6205616258dad16e53d0288",class:i},this.icon&&this.icon!==""&&n("neu-icon",{key:"e758542952179a41b512f0dd99288fb29f92b929"},this.icon),n("slot",{key:"3179e01fff63eb18a837127fc20a9301805461d5"}))},Object.defineProperty(t.prototype,"el",{get:function(){return r(this)},enumerable:!1,configurable:!0}),t}();export{c as neu_tag};
